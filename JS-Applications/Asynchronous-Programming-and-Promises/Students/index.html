@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button type="button" id="load">Load Students</button>
+
+<form id="form">
+
+    <label for="first-name">First Name</label>
+    <input id="first-name" type="text"><br>
+    <label for="last-name">Last Name</label>
+    <input id="last-name" type="text"><br>
+    <label for="faculty-number">Faculty Number</label>
+    <input id="faculty-number" type="text"><br>
+    <label for="grade">Grade</label>
+    <input id="grade" type="number"><br>
+    <button type="button" class="button" id="add">Add Student</button>
+
+</form>
+
+<table id="results">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Faculty Number</th>
+        <th>Grade</th>
+    </tr>
+</table>
+
+<script>
+    attachEvents();
+</script>
+</body>
+</html>

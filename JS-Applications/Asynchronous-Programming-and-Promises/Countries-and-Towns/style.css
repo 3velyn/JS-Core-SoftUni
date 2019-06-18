@@ -1,0 +1,19 @@
+div.input-group {
+    width: 50%;
+}
+
+.town {
+    margin: 1rem;
+    width: 45%;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+input[type='text'] {
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid #2688cc;
+    outline: none;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+}
